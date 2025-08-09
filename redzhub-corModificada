@@ -14,15 +14,15 @@ local redzlib = {
 	Themes = {
 		Darker = {
 ["Color Hub 1"] = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), -- preto quase puro
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),    -- preto puro
     ColorSequenceKeypoint.new(0.50, Color3.fromRGB(40, 0, 0)),   -- vermelho escuro no meio
-    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))  -- volta pro preto
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))     -- preto puro
 }),
-["Color Hub 2"] = Color3.fromRGB(30, 0, 0),      -- fundo levemente avermelhado
-["Color Stroke"] = Color3.fromRGB(60, 0, 0),    -- borda vermelho mais forte
-["Color Theme"] = Color3.fromRGB(200, 0, 0),    -- destaque vermelho vivo
-["Color Text"] = Color3.fromRGB(255, 255, 255), -- texto branco
-["Color Dark Text"] = Color3.fromRGB(200, 200, 200) -- texto cinza claro
+["Color Hub 2"] = Color3.fromRGB(0, 0, 0),        -- fundo totalmente preto
+["Color Stroke"] = Color3.fromRGB(60, 0, 0),      -- borda vermelho mais forte
+["Color Theme"] = Color3.fromRGB(200, 0, 0),      -- destaque vermelho vivo
+["Color Text"] = Color3.fromRGB(255, 255, 255),   -- texto branco
+["Color Dark Text"] = Color3.fromRGB(150, 0, 0)   -- texto secundário em vermelho suave
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
